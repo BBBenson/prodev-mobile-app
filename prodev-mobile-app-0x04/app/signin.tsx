@@ -1,15 +1,10 @@
-// app/signin.tsx
-import { View, Text, StyleSheet } from "react-native";
+// TODO: Move your previous signin screen code here
+import { View, Text } from 'react-native';
 
-export default function SignIn() {
+export default function SigninScreen() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Sign In Screen</Text>
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>Signin Screen</Text>
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: { flex: 1, justifyContent: "center", alignItems: "center" },
-  text: { fontSize: 18 },
-});
